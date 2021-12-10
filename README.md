@@ -5,19 +5,13 @@ This is a simple database connection using C++ and the mysql.h header. I created
 
 
 Here is a database table if you're here from the tutorial:
-
+```sql
 CREATE TABLE `tblUsers` (
-
 	`id` INT NOT NULL AUTO_INCREMENT,
-  
 	`name` varchar(30) NOT NULL,
-  
 	`surname` varchar(50) NOT NULL,
-  
 	`email` varchar(255) NOT NULL UNIQUE,
-  
 	`password` varchar(255) NOT NULL,
-  
 	PRIMARY KEY (`id`)
-  
 );
+```
